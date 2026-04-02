@@ -1,11 +1,9 @@
 let passWord = 12345;
-passWord.length
 
 if (passWord.length < 6){
-    passWord = 'too short';
+    return too short
 }
 else {
-    passWord = 'valid'
+    console.log('valid password')
 }
 
-console.log(passWord)
