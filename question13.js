@@ -1,6 +1,10 @@
 let fullName = 'john michael doe'
-let mic = fullName.slice(5,6)
+let name = fullName.slice(0,4)
+let midName = fullName.slice(5,6)
+let lastName = fullName.slice(12)
 
-let name = 'john_'+ mic + '_doe'
+let userName = `${name}_${midName}_${lastName}`
 
-console.log(name)
+
+
+console.log(userName)
