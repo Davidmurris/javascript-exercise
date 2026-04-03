@@ -1,4 +1,4 @@
-let card = '1234567812345678';
-let outPut = card.slice(-4);
+let card = '1234567812345678'
+let MaskCard = card.slice(-4).padStart(card.length, '*')
 
-console.log(outPut)
+console.log(MaskCard)
