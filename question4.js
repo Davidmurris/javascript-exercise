@@ -1,5 +1,4 @@
 let name = 'john'
-let num = 123
-let userName = name + num
+let userName = name.toLowerCase() + '123'
 
-console.log(userName)
+console.log(`generated userName: ${userName}`)
