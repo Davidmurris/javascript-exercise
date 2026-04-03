@@ -1,4 +1,4 @@
 let email = 'john.doe@gmail.com';
-let slice = email.slice(0,8)
+let username = email.split('@')[0];
 
-console.log(slice)
+console.log(username);
