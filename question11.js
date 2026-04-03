@@ -1,4 +1,5 @@
 let name = 'joHN'
-let lowercase = name.toLowerCase()
+let uppercase = name.charAt(0)
+   let word = uppercase.toUpperCase() + name.slice(1).toLowerCase()
 
-console.log(lowercase)
+ console.log(word))
