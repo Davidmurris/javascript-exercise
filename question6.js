@@ -1,5 +1,5 @@
 let word = 'javascript'
-let firstChar = word.slice(0,1);
-let lastChar = word.slice(-1);
+let first = word.charAt(0)
+let last = word.charAt(9)
 
-console.log(firstChar + lastChar)
+console.log(`first: ${first}, last: ${last}`)
